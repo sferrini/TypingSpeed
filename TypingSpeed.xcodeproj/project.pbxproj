@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC0D52F618540BE10003A5AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0D52F518540BE10003A5AB /* Foundation.framework */; };
+		FC0D52F818540BE10003A5AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0D52F718540BE10003A5AB /* CoreGraphics.framework */; };
+		FC0D52FA18540BE10003A5AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0D52F918540BE10003A5AB /* UIKit.framework */; };
+		FC0D530018540BE10003A5AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC0D52FE18540BE10003A5AB /* InfoPlist.strings */; };
+		FC0D530218540BE10003A5AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0D530118540BE10003A5AB /* main.m */; };
+		FC0D530618540BE10003A5AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0D530518540BE10003A5AB /* AppDelegate.m */; };
+		FC0D530918540BE10003A5AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0D530718540BE10003A5AB /* Main.storyboard */; };
+		FC0D530C18540BE10003A5AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0D530B18540BE10003A5AB /* ViewController.m */; };
+		FC0D530E18540BE10003A5AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0D530D18540BE10003A5AB /* Images.xcassets */; };
+		FC0D531518540BE10003A5AB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0D531418540BE10003A5AB /* XCTest.framework */; };
+		FC0D531618540BE10003A5AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0D52F518540BE10003A5AB /* Foundation.framework */; };
+		FC0D531718540BE10003A5AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0D52F918540BE10003A5AB /* UIKit.framework */; };
+		FC0D531F18540BE10003A5AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC0D531D18540BE10003A5AB /* InfoPlist.strings */; };
+		FC0D532118540BE10003A5AB /* TypingSpeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0D532018540BE10003A5AB /* TypingSpeedTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC0D531818540BE10003A5AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC0D52EA18540BE10003A5AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC0D52F118540BE10003A5AB;
+			remoteInfo = TypingSpeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC0D52F218540BE10003A5AB /* TypingSpeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypingSpeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0D52F518540BE10003A5AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC0D52F718540BE10003A5AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC0D52F918540BE10003A5AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC0D52FD18540BE10003A5AB /* TypingSpeed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TypingSpeed-Info.plist"; sourceTree = "<group>"; };
+		FC0D52FF18540BE10003A5AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC0D530118540BE10003A5AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC0D530318540BE10003A5AB /* TypingSpeed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TypingSpeed-Prefix.pch"; sourceTree = "<group>"; };
+		FC0D530418540BE10003A5AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC0D530518540BE10003A5AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC0D530818540BE10003A5AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC0D530A18540BE10003A5AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC0D530B18540BE10003A5AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC0D530D18540BE10003A5AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC0D531318540BE10003A5AB /* TypingSpeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypingSpeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0D531418540BE10003A5AB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC0D531C18540BE10003A5AB /* TypingSpeedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TypingSpeedTests-Info.plist"; sourceTree = "<group>"; };
+		FC0D531E18540BE10003A5AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC0D532018540BE10003A5AB /* TypingSpeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypingSpeedTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC0D52EF18540BE10003A5AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0D52F818540BE10003A5AB /* CoreGraphics.framework in Frameworks */,
+				FC0D52FA18540BE10003A5AB /* UIKit.framework in Frameworks */,
+				FC0D52F618540BE10003A5AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0D531018540BE10003A5AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0D531518540BE10003A5AB /* XCTest.framework in Frameworks */,
+				FC0D531718540BE10003A5AB /* UIKit.framework in Frameworks */,
+				FC0D531618540BE10003A5AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC0D52E918540BE10003A5AB = {
+			isa = PBXGroup;
+			children = (
+				FC0D52FB18540BE10003A5AB /* TypingSpeed */,
+				FC0D531A18540BE10003A5AB /* TypingSpeedTests */,
+				FC0D52F418540BE10003A5AB /* Frameworks */,
+				FC0D52F318540BE10003A5AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC0D52F318540BE10003A5AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC0D52F218540BE10003A5AB /* TypingSpeed.app */,
+				FC0D531318540BE10003A5AB /* TypingSpeedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC0D52F418540BE10003A5AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC0D52F518540BE10003A5AB /* Foundation.framework */,
+				FC0D52F718540BE10003A5AB /* CoreGraphics.framework */,
+				FC0D52F918540BE10003A5AB /* UIKit.framework */,
+				FC0D531418540BE10003A5AB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC0D52FB18540BE10003A5AB /* TypingSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				FC0D530418540BE10003A5AB /* AppDelegate.h */,
+				FC0D530518540BE10003A5AB /* AppDelegate.m */,
+				FC0D530718540BE10003A5AB /* Main.storyboard */,
+				FC0D530A18540BE10003A5AB /* ViewController.h */,
+				FC0D530B18540BE10003A5AB /* ViewController.m */,
+				FC0D530D18540BE10003A5AB /* Images.xcassets */,
+				FC0D52FC18540BE10003A5AB /* Supporting Files */,
+			);
+			path = TypingSpeed;
+			sourceTree = "<group>";
+		};
+		FC0D52FC18540BE10003A5AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC0D52FD18540BE10003A5AB /* TypingSpeed-Info.plist */,
+				FC0D52FE18540BE10003A5AB /* InfoPlist.strings */,
+				FC0D530118540BE10003A5AB /* main.m */,
+				FC0D530318540BE10003A5AB /* TypingSpeed-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC0D531A18540BE10003A5AB /* TypingSpeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC0D532018540BE10003A5AB /* TypingSpeedTests.m */,
+				FC0D531B18540BE10003A5AB /* Supporting Files */,
+			);
+			path = TypingSpeedTests;
+			sourceTree = "<group>";
+		};
+		FC0D531B18540BE10003A5AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC0D531C18540BE10003A5AB /* TypingSpeedTests-Info.plist */,
+				FC0D531D18540BE10003A5AB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC0D52F118540BE10003A5AB /* TypingSpeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0D532418540BE10003A5AB /* Build configuration list for PBXNativeTarget "TypingSpeed" */;
+			buildPhases = (
+				FC0D52EE18540BE10003A5AB /* Sources */,
+				FC0D52EF18540BE10003A5AB /* Frameworks */,
+				FC0D52F018540BE10003A5AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TypingSpeed;
+			productName = TypingSpeed;
+			productReference = FC0D52F218540BE10003A5AB /* TypingSpeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC0D531218540BE10003A5AB /* TypingSpeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0D532718540BE10003A5AB /* Build configuration list for PBXNativeTarget "TypingSpeedTests" */;
+			buildPhases = (
+				FC0D530F18540BE10003A5AB /* Sources */,
+				FC0D531018540BE10003A5AB /* Frameworks */,
+				FC0D531118540BE10003A5AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC0D531918540BE10003A5AB /* PBXTargetDependency */,
+			);
+			name = TypingSpeedTests;
+			productName = TypingSpeedTests;
+			productReference = FC0D531318540BE10003A5AB /* TypingSpeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC0D52EA18540BE10003A5AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Simone Ferrini";
+				TargetAttributes = {
+					FC0D531218540BE10003A5AB = {
+						TestTargetID = FC0D52F118540BE10003A5AB;
+					};
+				};
+			};
+			buildConfigurationList = FC0D52ED18540BE10003A5AB /* Build configuration list for PBXProject "TypingSpeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC0D52E918540BE10003A5AB;
+			productRefGroup = FC0D52F318540BE10003A5AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC0D52F118540BE10003A5AB /* TypingSpeed */,
+				FC0D531218540BE10003A5AB /* TypingSpeedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC0D52F018540BE10003A5AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0D530E18540BE10003A5AB /* Images.xcassets in Resources */,
+				FC0D530018540BE10003A5AB /* InfoPlist.strings in Resources */,
+				FC0D530918540BE10003A5AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0D531118540BE10003A5AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0D531F18540BE10003A5AB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC0D52EE18540BE10003A5AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0D530C18540BE10003A5AB /* ViewController.m in Sources */,
+				FC0D530618540BE10003A5AB /* AppDelegate.m in Sources */,
+				FC0D530218540BE10003A5AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0D530F18540BE10003A5AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0D532118540BE10003A5AB /* TypingSpeedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC0D531918540BE10003A5AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC0D52F118540BE10003A5AB /* TypingSpeed */;
+			targetProxy = FC0D531818540BE10003A5AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC0D52FE18540BE10003A5AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC0D52FF18540BE10003A5AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC0D530718540BE10003A5AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC0D530818540BE10003A5AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC0D531D18540BE10003A5AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC0D531E18540BE10003A5AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC0D532218540BE10003A5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC0D532318540BE10003A5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC0D532518540BE10003A5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TypingSpeed/TypingSpeed-Prefix.pch";
+				INFOPLIST_FILE = "TypingSpeed/TypingSpeed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC0D532618540BE10003A5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TypingSpeed/TypingSpeed-Prefix.pch";
+				INFOPLIST_FILE = "TypingSpeed/TypingSpeed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC0D532818540BE10003A5AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TypingSpeed.app/TypingSpeed";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TypingSpeed/TypingSpeed-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TypingSpeedTests/TypingSpeedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC0D532918540BE10003A5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TypingSpeed.app/TypingSpeed";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TypingSpeed/TypingSpeed-Prefix.pch";
+				INFOPLIST_FILE = "TypingSpeedTests/TypingSpeedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC0D52ED18540BE10003A5AB /* Build configuration list for PBXProject "TypingSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0D532218540BE10003A5AB /* Debug */,
+				FC0D532318540BE10003A5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0D532418540BE10003A5AB /* Build configuration list for PBXNativeTarget "TypingSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0D532518540BE10003A5AB /* Debug */,
+				FC0D532618540BE10003A5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0D532718540BE10003A5AB /* Build configuration list for PBXNativeTarget "TypingSpeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0D532818540BE10003A5AB /* Debug */,
+				FC0D532918540BE10003A5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC0D52EA18540BE10003A5AB /* Project object */;
+}
