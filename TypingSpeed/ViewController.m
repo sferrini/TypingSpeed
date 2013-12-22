@@ -15,30 +15,44 @@
 
 @implementation ViewController
 {
+    
     @private BOOL myBoolTime;
     @private BOOL myBoolText;
+    
 }
 
+@synthesize start;
 
-@synthesize entryTextField, start, textLabel, scoreLabel;
+@synthesize textLabel, entryTextField, scoreLabel, reloadButton;
 
 
 -(void)viewDidAppear:(BOOL)animated
 {
+    
+    self.textLabel.text = [NSString stringWithFormat:@"This is a test"];
+    
     [entryTextField becomeFirstResponder];
+    
 }
 
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
-
+    
+    
     myBoolTime = YES;
     myBoolText = YES;
-    [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(check) userInfo:nil repeats:YES];
+    
+    //Call check every 0.01 second
+    [NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(check) userInfo:nil repeats:YES];
+    
 }
 
+//Time interval
 - (void)time
 {
+    
     NSTimeInterval timeInterval = [start timeIntervalSinceNow];
     NSLog(@"Time: %f",timeInterval);
     
@@ -51,38 +65,54 @@
     {
         
     }
+    
     else
     {
         
         if (myBoolTime == YES)
         {
-            
-            start = [NSDate date];
-            NSLog(@"Start game");
+        
+        start = [NSDate date];
+        
+        NSLog(@"Start game");
+        
         }
         
         myBoolTime = NO;
         
-        
-        
-        [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(time) userInfo:nil repeats:NO];
-        
-
-    }
-    
-    if ([entryTextField.text isEqualToString:@"Text"])
-    {
-        NSLog(@"Well done!");
-        self.textLabel.text = [NSString stringWithFormat:@"Well done!"];
-        
         if (myBoolText == YES)
         {
-            myBoolText = NO;
-            NSTimeInterval timeInterval = -1*[start timeIntervalSinceNow];
-            self.scoreLabel.text = [NSString stringWithFormat:@"Score: %f",timeInterval];
+            NSString *textToBeInserted = self.textLabel.text;
+            if ([entryTextField.text isEqualToString:textToBeInserted])
+            {
+                
+                myBoolText = NO;
+                
+                NSLog(@"Well done!");
+                
+                self.textLabel.text = [NSString stringWithFormat:@"Well done!"];
+                
+                
+                NSTimeInterval timeInterval = -1 * [start timeIntervalSinceNow];
+                
+                self.scoreLabel.text = [NSString stringWithFormat:@"Time: %f",timeInterval];
+                
+            }
+            
         }
+        
     }
+    
+}
 
+- (IBAction)reloadText:(UIButton *)sender
+{
+    
+    self.entryTextField.text = @"";
+    self.scoreLabel.text = @"Score";
+    
+    myBoolTime = YES;
+    myBoolText = YES;
     
 }
 

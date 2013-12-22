@@ -10,10 +10,12 @@
 
 @interface ViewController : UIViewController
 
-
 @property (strong, nonatomic) NSDate *start;
 
-@property (strong, nonatomic) IBOutlet UITextField *entryTextField;
 @property (strong, nonatomic) IBOutlet UILabel *textLabel;
+@property (strong, nonatomic) IBOutlet UITextField *entryTextField;
 @property (strong, nonatomic) IBOutlet UILabel *scoreLabel;
+
+@property (strong, nonatomic) IBOutlet UIButton *reloadButton;
+
 @end
