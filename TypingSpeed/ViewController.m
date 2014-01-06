@@ -29,7 +29,19 @@
 -(void)viewDidAppear:(BOOL)animated
 {
     
-    self.textLabel.text = [NSString stringWithFormat:@"This is a test"];
+    
+    
+    NSString *text = @"This is a test";
+    
+
+    int nRandom = arc4random() % 100; // %n
+    NSLog(@"Random number: %u", nRandom);
+    
+    
+    
+    
+    
+    self.textLabel.text = text;
     
     [entryTextField becomeFirstResponder];
     
